@@ -14,14 +14,13 @@
     padding-top: 20px;
 }
 
-/* background-color: #16E4E8;
-    background-color: #a8e4b6;
-    background-color: #E5693C; 
-    color: #25C0BD;*/
-
 .card {
     margin: 20px;
     width: 400px;
+}
+
+.bg-primary {
+    background-color: (#D2ABA2)!important;
 }
 
 .rounded {
@@ -30,7 +29,8 @@
 }
 .bg-image {
     padding: 40px;
-    background: url("https://mars.nasa.gov/assets/mars_landscape.jpg");
+    background: url(https://mars.nasa.gov/assets/mars_landscape.jpg) no-repeat center center fixed;
+    background-size: contain;
 }
 
 h3 {
