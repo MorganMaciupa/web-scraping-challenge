@@ -1,0 +1,38 @@
+.grid-container {
+    display: grid;
+
+    /* For 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+    margin: 40px;
+}
+
+.heading {
+    color: white;
+    padding-top: 20px;
+}
+
+/* background-color: #16E4E8;
+    background-color: #a8e4b6;
+    background-color: #E5693C; 
+    color: #25C0BD;*/
+
+.card {
+    margin: 20px;
+    width: 400px;
+}
+
+.rounded {
+    border-radius:.95rem;
+    background-color: #D2ABA2;
+}
+.bg-image {
+    padding: 40px;
+    background: url("https://mars.nasa.gov/assets/mars_landscape.jpg");
+}
+
+h3 {
+    text-decoration: underline;
+}
